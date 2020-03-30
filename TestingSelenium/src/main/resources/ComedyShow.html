@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="utf-8" />
+    <title>Add ComedyShow Form</title>
+			 <script>
+		
+		function validateForm()
+{
+	var showid= document.getElementById('Text24').value;
+	var title=document.getElementById('Text1').value;
+	var date= document.getElementById('Text12').value;
+	var comedian=document.getElementById('Text14').value;
+	var duration=document.getElementById('Text15').value;
+	var lang= document.getElementById('Select12').value;
+	var rating =document.getElementById('Select9').value;
+	if(showid==="")
+	{
+	alert("ComedyShow ID must be filled out");
+	return false;
+	}
+	else if(title==="")
+	{
+	alert("ComedyShow Title field must be filled out");
+		return false;
+	}
+	else if (date==="")
+	{
+	alert("Release Date field must be filled out");
+		return false;
+	}
+	else if(comedian===""){
+	alert("ComedyShow Comedian  must be filled out");
+		return false;
+	
+	}
+	else if (duration===""){
+	alert("ComedyShow Duration must be filled out");
+		return false;
+	}
+	else if(lang===""){
+	alert("ComedyShow Language must be filled out");
+		return false;
+	}
+	else if(rating===""){
+	alert("ComedyShow rating must be filled out");
+		return false;
+	}
+	else
+	{
+	alert("ComedyShow Added successfully");
+	return true;
+	}
+}
+			 
+</script>
+    <style type="text/css">
+        .auto-style1 {
+            font-weight: bold;
+            width: 130px;
+        
+        #Text1 {
+            width: 164px;
+        }
+        #Select1 {
+            width: 127px;
+        }
+        #TextArea1 {
+            height: 75px;
+        }
+        #Select2 {
+            width: 179px;
+        }
+        #Select3 {
+            width: 127px;
+        }
+        #Select4 {
+            width: 127px;
+        }
+        #Text3 {
+            height: 60px;
+        }
+        #Text11 {
+            width: 118px;
+        }
+        #Text12 {
+            width: 118px;
+        }
+        #TextArea2 {
+            height: 75px;
+        }
+        #Text15 {
+            width: 118px;
+        }
+        #Text12 {
+            width: 118px;
+        }
+        .auto-style10 {
+            font-weight: bold;
+        }
+        #Text13 {
+            width: 118px;
+        }
+        #Select8 {
+            width: 127px;
+        }
+        .auto-style11 {
+            width: 176px;
+            font-weight: bold;
+            height: 16px;
+        }
+        .auto-style12 {
+            height: 16px;
+        }
+        #Text14 {
+            width: 118px;
+        }
+        #Text14 {
+            width: 118px;
+        }
+        #Text15 {
+            width: 118px;
+        }
+        #Text15 {
+            width: 118px;
+        }
+        #Text16 {
+            width: 118px;
+        }
+        #Text16 {
+            width: 118px;
+        }
+        #Text16 {
+            width: 123px;
+        }
+        #TextArea2 {
+            height: 75px;
+        }
+        #Select9 {
+            width: 143px;
+        }
+        #Select10 {
+            width: 142px;
+        }
+        #Select11 {
+            width: 127px;
+        }
+        #Select12 {
+            width: 127px;
+        }
+        #Select13 {
+            width: 127px;
+        }
+        #Select14 {
+            width: 127px;
+        }
+        #Select15 {
+            width: 127px;
+        }
+        #Select16 {
+            width: 127px;
+        }
+        #Select17 {
+            width: 127px;
+        }
+        #Text17 {
+            width: 118px;
+        }
+        #Text18 {
+            width: 118px;
+        }
+        #Text18 {
+            width: 118px;
+        }
+        #Text18 {
+            width: 313px;
+        }
+        #Text19 {
+            width: 118px;
+        }
+        #Text19 {
+            width: 118px;
+        }
+        #Text19 {
+            width: 118px;
+        }
+        .auto-style13 {
+            width: 176px;
+            font-weight: bold;
+            height: 13px;
+        }
+        .auto-style14 {
+            height: 13px;
+        }
+        #Text20 {
+            width: 118px;
+        }
+        #Text20 {
+            width: 118px;
+        }
+        #Text20 {
+            width: 118px;
+        }
+        #Text21 {
+            width: 118px;
+        }
+        #Text21 {
+            width: 118px;
+        }
+        #Text21 {
+            width: 118px;
+        }
+        #Text22 {
+            width: 118px;
+        }
+        #Text22 {
+            width: 118px;
+        }
+        #Text22 {
+            width: 313px;
+        }
+        .auto-style15 {
+            height: 57px;
+        }
+        #Text23 {
+            width: 118px;
+        }
+        #Text23 {
+            width: 118px;
+        }
+        #Text23 {
+            width: 313px;
+        }
+        #Text23 {
+            width: 118px;
+        }
+        #Text23 {
+            width: 118px;
+        }
+        #Text23 {
+            width: 118px;
+        }
+        #Text24 {
+            width: 164px;
+        }
+        #Select11 {
+            width: 143px;
+        }
+        #Select12 {
+            width: 127px;
+        }
+        #Select12 {
+            width: 143px;
+        }
+        </style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Material_x0020_Type msdt:dt="string">Module Test Practical</mso:Material_x0020_Type>
+<mso:Category msdt:dt="string">Assessment Component</mso:Category>
+<mso:Level msdt:dt="string">L1</mso:Level>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+<Form name="myForm"  onsubmit="return validateForm()">
+    <table border="1" style="width: 41%;">
+        <tr>
+            <td colspan="2" style="text-align: center; font-size: x-large; font-weight: 700" class="auto-style15">Online Video Library Management System<br />
+                Add ComedyShow Form<br /></br>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style10" style="font-family: Calibri">* ComedyShow ID :</td>
+            <td>
+                <input id="Text24" type="text"   /></td>
+        </tr>
+        <tr>
+            <td class="auto-style10" style="font-family: Calibri">* ComedyShow Title :</td>
+            <td>
+                <input id="Text1" type="text"  /></td>
+        </tr>
+        <tr>
+            <td class="auto-style10" style="font-family: Calibri">* Release Date :</td>
+            <td>
+                <input id="Text12" type="text"  /></td>
+        </tr>
+                <tr>
+            <td class="auto-style10" style="font-family: Calibri">* Comedian :</td>
+            <td>
+                <input id="Text14" type="text"  /></td>
+        </tr>
+                <tr>
+            <td class="auto-style10" style="font-family: Calibri">* ComedyShow Duration :</td>
+            <td>
+                <input id="Text15" type="text"  /></td>
+        </tr>
+        <tr>
+            <td class="auto-style13" style="font-family: Calibri">* Language :</td>
+            <td class="auto-style14">
+                <select  id="Select12" name="D12">
+                    <option value="">Select Language</option>
+					<option value="12">Hindi</option>
+					<option value="13">English</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td class="auto-style11" style="font-family: Calibri">* ComedyShow Rating :</td>
+            <td class="auto-style12">
+                <select  id="Select9" name="D9">
+                    <option value="">Select ComedyShow Rating</option>
+					<option value="2">1</option>
+					<option value="3">2</option>
+					<option value="4">3</option>
+					<option value="5">4</option>
+					<option value="6">5</option>
+                </select></td>
+        </tr>
+        
+        <tr>
+            <td class="auto-style10" style="font-family: Calibri" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="auto-style1" id="Button4" type="Submit" value="Add ComedyShow" />
+                &nbsp;&nbsp; <input class="auto-style1" id="Button5" type="Reset" value="Reset" /></td>
+        </tr>
+    </table></br>
+</Form>
+    </body>
+</html>
